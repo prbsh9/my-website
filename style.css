@@ -365,7 +365,8 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #141313;
+    background-color: transparent;
+    background-image: url('images/banner.jpg') !important;
     z-index: 0;
     opacity: .6;
 }
@@ -622,7 +623,7 @@ xclip
 
 .btn-hover-new:hover{
 	color: #ffffff;
-	background-color: #141313;
+	background-color: #0000ff !important ;
 }
 .btn-hover-new:hover > span {
     opacity: 0;
