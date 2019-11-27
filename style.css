@@ -2482,7 +2482,7 @@ select.mobile-device {
 .progressbar {
            background-color: #857A79 !important;
            border-radius: 19px;
-           width: 400px;
+           width: 90%;
            height: 30px;
            /* (height of inner div) / 2 + padding */
            padding: 2px;
@@ -2523,11 +2523,11 @@ select.mobile-device {
 }
 
 .skills-left{
-    width: 50%;
+    width: 49%;
     float: left;
 }
 
 .skills-right{
-    width: 50%;
-    float: right;
+    width: 49%;
+    float: right}
 }
