@@ -24,7 +24,7 @@
 -------------------------------------------------------------------*/
 *{
     color: #fff !important ;
-    background-color: #141313 !important
+    /*background-color: #141313 !important*/
 }
 
 
@@ -856,6 +856,7 @@ xclip
 
 .certificates img {
     max-width: 55px;
+
 }
 
 .certificates small {
@@ -1450,16 +1451,19 @@ hr.invis1 {
 	border-radius: 0px;
 }
 
-
+/*
 .gallery-single{
 	margin: 30px 15px;;
-}
+}*/
 
 .gallery-single {
 	position: relative;
 	overflow: hidden;
+    height: 100%
+    width: 100%;
 	-webkit-box-shadow: 0 0 10px #ccc;
 	box-shadow: 0 0 10px #ccc;
+    margin: 5%;
 }
 
 .gallery-list .img-overlay {
@@ -1534,10 +1538,10 @@ hr.invis1 {
 }
 
 .post-info{
-	padding: 0px 15px 40px 15px;
-	background: #ffffff;
+	padding: 0px 15px 15px 15px;
+	background: #000;
 	text-align: left;
-	margin-top: 40px;
+	margin-top: 4px;
 }
 
 .post-info p{
@@ -1552,7 +1556,7 @@ hr.invis1 {
 .post-info ul{
 	display: block;
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 1px;
 }
 .post-info ul li{
 	display: inline-block;
@@ -2593,29 +2597,4 @@ select.mobile-device {
 @keyframes zoom {
   from {transform:scale(0)} 
   to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #ff0000 !important;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #ff0000 !important;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
 }
