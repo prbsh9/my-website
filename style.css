@@ -575,6 +575,7 @@ xclip
 
 
 
+
 .btn-hover-new{
 	color: #333333;
 	-webkit-transition: all 0.5s;
@@ -591,11 +592,12 @@ xclip
 .sim-btn{
 	line-height: 50px;
 	height: 50px;
-	text-align: center;
+	text-align: center !important;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: 40%;
 	margin-top: 0px;
 	cursor: pointer;
+    background: #089CF6;
 }
 
 .btn-hover-new::after {
