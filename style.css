@@ -2600,3 +2600,10 @@ select.mobile-device {
   from {transform:scale(0)} 
   to {transform:scale(1)}
 }
+
+
+/*Added Later ones*/
+
+.right {
+float: right !important;
+}
