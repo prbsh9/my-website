@@ -309,7 +309,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .navbar-dark{
-	
+
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -414,9 +414,9 @@ a img.aligncenter {
   opacity: 1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xclip 
+xclip
 
 -------------------------------- */
 .cd-headline.clip span {
@@ -1437,7 +1437,7 @@ hr.invis1 {
 .filter-button-group button.active{
 	background: #333333;
 	color: #fff;
-	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
+	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);
 }
 
 .filter-button-group button{
@@ -2440,8 +2440,8 @@ select.mobile-device {
 @keyframes rotate {
   0% { border-width: 10px; }
   25% { border-width: 3px; }
-  50% { 
-    transform: rotate(115deg); 
+  50% {
+    transform: rotate(115deg);
     border-width: 10px;
   }
   75% { border-width: 3px;}
@@ -2497,7 +2497,7 @@ select.mobile-device {
 .progressbar .twenty {
   background-color: #87ceeb;
   width: 20%;
-   Adjust with JavaScript 
+   Adjust with JavaScript
   height: 28px;
   border-radius: 10px;
 }
@@ -2510,9 +2510,18 @@ select.mobile-device {
   border-radius: 10px;
   text-align: center;
   color: #000 !important;
-  
-}
 
+}
+.progressbar .sixty {
+  background-color: #87ceeb !important;
+  width: 60%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+  text-align: center;
+  color: #000 !important;
+
+}
 .progressbar .eighty {
   background-color: #87ceeb !important;
   width: 80%;
@@ -2584,7 +2593,7 @@ select.mobile-device {
 }
 
 /* Add Animation */
-.modal-content, #caption {  
+.modal-content, #caption {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -2592,12 +2601,12 @@ select.mobile-device {
 }
 
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
+  from {-webkit-transform:scale(0)}
   to {-webkit-transform:scale(1)}
 }
 
 @keyframes zoom {
-  from {transform:scale(0)} 
+  from {transform:scale(0)}
   to {transform:scale(1)}
 }
 
